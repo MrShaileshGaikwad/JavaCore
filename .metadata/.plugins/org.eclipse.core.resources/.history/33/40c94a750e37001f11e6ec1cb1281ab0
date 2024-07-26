@@ -1,0 +1,46 @@
+package com.JavaPractice;
+
+
+import java.util.*;
+
+private class Student implements Comparable<Student> {
+    int rollNo;
+    String name;
+    int age;
+
+    Student(int rollNo, String name, int age) {
+        this.rollNo = rollNo;
+        this.name = name;
+        this.age = age;
+    }
+
+    @Override
+    public int compareTo(Student s) {
+        // Sorting by age
+        return this.age - s.age;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "rollNo=" + rollNo +
+                ", name='" + name + '\'' +
+                ", age=" + age +
+                '}';
+    }
+}
+
+public class ComparableExample {
+    public static void main(String[] args) {
+        List<Student> students = new ArrayList<>();
+        students.add(new Student(101, "Alice", 23));
+        students.add(new Student(102, "Bob", 21));
+        students.add(new Student(103, "Charlie", 25));
+
+        Collections.sort(students);
+
+        for (Student s : students) {
+            System.out.println(s);
+        }
+    }
+}

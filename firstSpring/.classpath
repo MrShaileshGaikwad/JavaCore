@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-21">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/web.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/aop.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/core.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/ibatis.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/j2ee.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/javaconfig.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/misc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/persistCore.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/persistJdbc.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/persistJDO.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/remoting.zip"/>
+	<classpathentry kind="lib" path="C:/Users/Shree/Downloads/springjars/springjars/test.zip"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

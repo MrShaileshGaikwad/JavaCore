@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module spring1st {
+	requires org.springframework.beans;
+}

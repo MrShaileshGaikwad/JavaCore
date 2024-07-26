@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<beans
+<bean id="studentbean" class="com.spring1st.Student">  
+<property name="name" value="Vimal Jaiswal"></property>  
+</bean>  
+  
+</beans>  

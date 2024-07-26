@@ -1,0 +1,10 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module spring1st {
+	requires org.springframework.beans;
+	requires org.springframework.core;
+}
